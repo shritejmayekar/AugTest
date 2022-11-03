@@ -1,0 +1,1 @@
+SELECT FIRST_NAME,LAST_NAME,SALARY  FROM employees  as ep inner join department as dp on(ep.DEPARTMENT_ID = dp.DEPARTMENT_ID) where ep.SALARY > (SELECT AVGERAGE(SALARY) FROM  FROM employees  as ep inner join department as dp on(ep.DEPARTMENT_ID = dp.DEPARTMENT_ID) ) AND dp.DEPARTMENT='IT'

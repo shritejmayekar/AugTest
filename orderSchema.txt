@@ -1,0 +1,7 @@
+order
+=======
+order_id
+amount 
+shipping_id
+order_items
+user_id
